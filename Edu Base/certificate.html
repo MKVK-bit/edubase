@@ -1,0 +1,11 @@
+<h2>EduBase Certificate</h2>
+<p>This certifies that</p>
+<h1 id="name">Student</h1>
+<p>has successfully improved foundational skills</p>
+
+<button onclick="print()">Download Certificate</button>
+
+<script>
+  document.getElementById("name").innerText =
+    localStorage.getItem("studentName") || "Student";
+</script>
